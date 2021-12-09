@@ -32,9 +32,9 @@ class Asteroid extends Floater{
     return (int)rotationSpeed;
   }
   public double getX(){
-    return myXspeed;
+    return myCenterX;
   }
   public double getY(){
-    return myYspeed; 
+    return myCenterY; 
   }
 }
